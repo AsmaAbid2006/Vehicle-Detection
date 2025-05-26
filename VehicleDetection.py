@@ -1,7 +1,7 @@
 import cv2
 from ultralytics import YOLO
 model = YOLO('yolov8n.pt') 
-video_path = 'Task7/videos/video2.mp4'  
+video_path = #'Add path to your video'  
 cap = cv2.VideoCapture(video_path)
 if not cap.isOpened():
     print("Error opening video file")
